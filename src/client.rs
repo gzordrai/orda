@@ -194,3 +194,9 @@ impl YurtClient {
             .await
     }
 }
+
+impl Default for YurtClient {
+    fn default() -> Self {
+        Self::new()
+    }
+}
