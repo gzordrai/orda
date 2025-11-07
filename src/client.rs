@@ -1,8 +1,7 @@
 use reqwest::{Client, Error};
 
 use crate::{
-    Civilization, SortBy,
-    query::Query,
+    query::{Civilization, Query, SortBy},
     types::{BuildOrder, BuildOrders, Status},
 };
 
